@@ -6,7 +6,8 @@ if [[ $# != 2 ]]; then
   exit 1
 fi
 
-S3_BUCKET="loki-shipper-ddl"
-ACCOUNT_NAME="cloudcreation"
+S3_BUCKET="${loki-shipper-ddl}"
+ACCOUNT_NAME="${cloudcreation}"
+
 
 aws s3 cp lambda.zip "s3://${S3_BUCKET}/lambda.zip" --profile "${ACCOUNT_NAME}"
