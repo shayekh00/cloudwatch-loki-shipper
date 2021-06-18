@@ -13,4 +13,4 @@ set -euo pipefail
 # aws s3 cp lambda.zip "s3://${S3_BUCKET}/lambda.zip" --profile "${ACCOUNT_NAME}"
 
 
-aws s3 cp lambda.zip "s3://loki-shipper-ddl/lambda.zip" --profile "cloudcreation"
+aws s3 cp lambda.zip "s3://loki-shipper-ddl/lambda.zip" --profile "shayekh00"
